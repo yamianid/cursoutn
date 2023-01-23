@@ -7,18 +7,22 @@
     <title>Web HTML</title>
 </head>
 <body>
-    
+    <header><h1>Mi Pagina Web</h1></header>
 </body>
 <!--h1> se puede utilizar solo 1 vez por html-->
 <!--de esta forma se pueden escribir comentarios que no se ven en la pagina-->
 <!-- para escribir un coment + rapido es Ctrl + } -->
+<section>
 <H1>Encabezado 1</H1>
 <h2>Encabezado 2</h2>
 <h3>Encabezado 3</h3> 
 <h4>Encabezado 4</h4>
 <h5>Encabezado 5</h5>
 <h6>Encabezado 6</h6>
+</section>
+<aside>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quibusdam asperiores, eius beatae sed, quam at, fugiat voluptatibus repudiandae provident natus id non veritatis labore maxime a vel necessitatibus nobis?</p>
+</aside>
 <!-- si escribo lorem entre las eqiquetas de <p> simulo tenxto rapidamente -->
    <h3>Ejemplos de lista</h3> 
    <!-- ul para lista con punto, ol para lista ordenada con nros -->
@@ -45,5 +49,79 @@
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, consectetur provident. Perferendis minus commodi doloribus, eum aut eaque eius non harum voluptatibus saepe. Velit delectus temporibus nesciunt quasi voluptas assumenda!</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam eligendi cum tempore, dolorem dicta eveniet possimus quis ullam, recusandae modi earum dolores fugiat molestias eaque et facere hic omnis inventore.</p>
 </div>
+<h2>Ejemplo de audio</h2>
+<audio src="Multimedia/X2Download.app - Coldplay - Viva La Vida (Official Video) (128 kbps).mp3" controls></audio>
+<h2>Ejemplo de video</h2>
+<video src="Multimedia/X2Download.app-Coldplay - Paradise (Official Video).mp4" controls></video>
+<h2>Ejemplo de formulario</h2>
+<form action="">
+    <p>
+        <label for="nom">Nombre</label>
+        <input type="text" name="nombre">
+    </p>
+    <p>
+        <label for="surname">Apellido</label>
+        <input type="text" name="apellido">
+    </p>
+    <p>
+        <label for="sex">Sexo</label>
+        <ul>
+            <li>
+                <input type="radio" name="Sexo" value="hombre">
+                <label>Hombre</label>
+            </li>
+            <li>
+                <input type="radio" name="Sexo" value="mujer">
+                <label>Mujer</label>
+            </li>
+        </ul>
+    </p>
+    <label>Alergias</label>
+    <ul>
+        <li>
+            <input type="checkbox" name="alergias" value="mani" id="Mani">
+            <label for="mani">Mani</label>
+        </li>
+        <li>
+            <input type="checkbox" name="alergias" value="almendra" id="almendra">
+            <label for="almendra">Almendra</label>
+        </li>
+        <li>
+            <input type="checkbox" name="alergias" value="mariscos" id="mariscos">
+            <label for="mariscos">Mariscos</label>
+        </li>
+        <input type="checkbox" name="alergias" value="gluten" id="gluten">
+        <label for="gluten">Gluten</label>
+    </ul>
+    <p>
+        <label for="estudios">Nivel de Estudios</label>
+        <select name="estudios">
+            <option value="primario">Primario</option>
+            <option value="secundario">Secundario</option>
+            <option value="terciario">Terciario</option>
+            <option value="universitario">Universitario</option>
+        </select>
+    </p>
+    <p>
+        <label for="cel">Celular</label>
+        <input type="number" name="Celular">
+    </p>
+    <p>
+        <label for="pass">Contraseña</label>
+        <input type="password" name="pass">
+    </p>
+    <p>
+        <label for="file">Archivos</label>
+        <input type="file" name="Archivos">
+    </p>
+    <p>
+        <label for="comentarios">Comentarios</label>
+        <textarea name="comentarios" id="" cols="50" rows="10"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </p>
+</form>
 
 </html>
