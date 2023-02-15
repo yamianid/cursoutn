@@ -1,0 +1,28 @@
+/*font-family: 'Itim', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Itim', cursive;*/
+
+.caja{
+    width: 400px;
+    height: 400px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(88,179,153,1) 28%, rgba(0,212,255,1) 100%);
+box-shadow: 10px 20px 5px black;
+/*eje x - eje y - blur - color (si pongo el nro en negativo se hace para el otro lado)*/
+}
+.texto{
+    background-color: aquamarine;
+    column-count: 3;
+    column-gap: 50px;
+}
+h2{
+    font-family: 'Itim', cursive;
+}
+p{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Itim', cursive  
+}
+.icono{
+    color: blue;
+    size: 25px;
+} /*la palabra icono la agregue dentro de la etiqueta para poder hacerle una clase*/
