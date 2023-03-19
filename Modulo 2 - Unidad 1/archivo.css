@@ -26,3 +26,46 @@ p{
     color: blue;
     size: 25px;
 } /*la palabra icono la agregue dentro de la etiqueta para poder hacerle una clase*/
+.contenedor{
+    background-color: blueviolet;
+    display: inline-flex;
+   flex-direction: row-reverse;
+   flex-direction: column;
+   flex-direction: column-reverse;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: rgb(157, 255, 127);
+    font-size: 20px;
+    font-weight: 100;
+}
+.container{
+    background-color: rgb(127, 255, 144);
+    display: inline-flex; 
+    flex-wrap: nowrap;
+    flex-wrap: wrap; /*wrap hace que se desborde el contenido cuando no entra*/
+}
+.ite{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    background-color:blueviolet;
+    font-size: 20px;
+    font-weight: 100; 
+}
+.boton{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: rgb(157, 255, 127);
+    font-size: 20px;
+    font-weight: 100; 
+}
+.botonera{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between; /*justify es sobre el eje primario y align es sobre ele eje secundario*/
+}
