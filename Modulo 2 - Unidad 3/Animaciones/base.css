@@ -1,0 +1,70 @@
+@media screen and (min-width: 230px) and (max-widht: 800px){
+    
+}
+.contenedor{
+    width: 300px;
+    height: 100px;
+    background-color: pink;
+   margin: 50px 250px;
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900px;
+    text-align: center;
+      
+}
+.optimizacion{
+    background-color: lightcoral;
+
+}
+.botonera{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin: 20px;
+    
+    flex-direction: row-reverse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900px;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+  
+}
+@media screen and (min-width: 881px) and (max-widht: 1420px){
+    
+}
+.contenedor{
+    width: 300px;
+    height: 100px;
+    background-color: pink;
+   margin: 50px 250px;
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900px;
+    text-align: center;
+      
+}
+.optimizacion{
+    background-color: pink;
+
+}
+.botonera{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    margin: 20px;
+    
+    flex-direction: row-reverse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900px;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+  
+}

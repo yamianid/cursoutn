@@ -1,0 +1,122 @@
+.fondo{
+    margin: 120px 150px;
+    width: 300px;
+    height: 300px;
+    background: blueviolet;
+    color: aquamarine;
+    font-weight: 900;
+    font-size: 3.4em;
+    text-align: center;
+    line-height: 300px;
+ 
+    transition: all 0.3s ease;
+}
+
+.fondo:hover
+{
+    transform: scale(1.2);
+
+}
+.fondo2{
+    margin: 120px 150px;
+    width: 300px;
+    height: 300px;
+    background: blueviolet;
+    color: aquamarine;
+    font-weight: 900;
+    font-size: 3.4em;
+    text-align: center;
+    line-height: 300px;
+ 
+    transition: all 0.3s ease;
+}
+
+.fondo2:hover
+{
+    transform: scale(0.8);
+
+}
+.rotard{
+    margin: 120px 150px;
+    width: 300px;
+    height: 300px;
+    background: blueviolet;
+    color: aquamarine;
+    font-weight: 900;
+    font-size: 3.4em;
+    text-align: center;
+    line-height: 300px;
+ 
+    transition: all 0.3s ease;
+}
+
+.rotard:hover
+{
+    transform: rotate(25deg);
+
+}
+.rotari{
+    margin: 120px 150px;
+    width: 300px;
+    height: 300px;
+    background: blueviolet;
+    color: aquamarine;
+    font-weight: 900;
+    font-size: 3.4em;
+    text-align: center;
+    line-height: 300px;
+ 
+    transition: all 0.3s ease;
+}
+
+.rotari:hover
+{
+    transform: rotate(-25deg);
+
+}
+.swing{
+    margin: 120px 150px;
+    width: 300px;
+    height: 300px;
+    background: blueviolet;
+    color: aquamarine;
+    font-weight: 900;
+    font-size: 3.4em;
+    text-align: center;
+    line-height: 300px;
+ 
+    transition: all 0.3s ease;
+}
+
+@keyframes swing{
+15% {transform:translateX(5px); background-color: lightgreen;}
+30% {transform: translateX(-5px); background-color: lightgoldenrodyellow;}
+50% {transform: translateX(3px); background-color: lightgreen;}
+65% {transform: translateX(-3px);background-color: lightgoldenrodyellow;}
+80% {transform: translateX(2px);background-color: lightgreen;}
+100% {transform: translateX(0px);background-color: lightgreen;}
+/*se le pueden agregar todas las propiedades que uno quiera*/
+}
+
+.swing:hover{
+    animation: swing 1s ease;
+    animation-iteration-count: 1;
+}
+.animacion{
+    margin: 120px 150px;
+    width: 300px;
+    height: 300px;
+    background: blueviolet;
+    color: aquamarine;
+    font-weight: 900;
+    font-size: 3.4em;
+    text-align: center;
+    line-height: 300px;
+    animation-name: animacion;
+    animation-duration: 4s;  
+}
+
+@keyframes animacion {
+from {background-color: pink;}
+to {background-color: blueviolet;}
+}

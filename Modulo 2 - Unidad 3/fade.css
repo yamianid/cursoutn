@@ -1,0 +1,20 @@
+.fondo{
+    margin: 120px 150px;
+    width: 500px;
+    height: 300px;
+    background: blueviolet;
+    color: aquamarine;
+    font-weight: 900;
+    font-size: 3.4em;
+    text-align: center;
+    line-height: 300px;
+    opacity: 0.1;
+
+    transition: all 0.3s ease;
+}
+
+.fondo:hover
+{
+    opacity: 1;
+
+}
